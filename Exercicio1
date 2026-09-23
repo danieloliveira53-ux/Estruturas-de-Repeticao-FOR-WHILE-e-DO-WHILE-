@@ -1,0 +1,10 @@
+public class Exercicio1 {
+    //Exercício 1 - FOR
+    //Crie um algoritmo que exiba os números de 1 até 20.
+
+    public static void main(String[] args) {
+       for (int i = 1; i<=20; i++){
+           System.out.println(i);}
+       }
+    }
+
