@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio3 {
+    static void main(String[] args) {
+        //Solicite números ao usuário até que ele digite 0.
+        // Ao final exiba "Programa encerrado".
+        Scanner leia = new Scanner(System.in);
+        System.out.println("Digite um numero ");
+        int numeros = leia.nextInt();
+        while (numeros !=0){
+            System.out.println("Digite um numero ");
+            numeros = leia.nextInt();
+        }
+        System.out.println("Programa Encerrado");
+
+    }
+
+
+}
