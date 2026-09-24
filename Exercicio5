@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Exercicio5 {
+    static void main(String[] args) {
+        //Exiba um menu com as opções 1-Ver saldo, 2-Fazer depósito e 3-Sair.
+        // O menu deve continuar aparecendo até a opção 3 ser escolhida.
+        Scanner leia = new Scanner(System.in);
+        int opcao;
+        do {
+            System.out.println("1-VER SALDO");
+            System.out.println("2-FAZER DEPOSITO");
+            System.out.println("3-SAIR");
+            System.out.println("Escolha uma opção");
+
+            opcao = leia.nextInt();
+        } while (opcao != 3);
+            System.out.println("Programa Encerrado");
+
+        }
+    }
