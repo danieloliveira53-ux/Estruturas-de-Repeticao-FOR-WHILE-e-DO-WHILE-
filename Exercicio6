@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+
+public class Exercicio6 {
+    static void main(String[] args) {
+        //Pergunte se o usuário deseja registrar outro pedido (S/N).
+        // Continue enquanto a resposta for S.
+        Scanner leia = new Scanner(System.in);
+        int pedido;
+
+        do {
+            System.out.println("1- DESEJA REALIZAR OUTRO PEDIDO");
+            System.out.println("2- NAO QUERO OUTRO PEDIDO");
+            pedido = leia.nextInt();
+        } while (pedido!=1);
+        System.out.println("PROGRAMA ENCERRADO");
+    }
+}
