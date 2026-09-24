@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+    static void main(String[] args) {
+        //Solicite a senha 2025. Enquanto estiver incorreta,
+        // informe "Senha inválida". Ao acertar exiba "Acesso liberado"
+        Scanner leia = new Scanner(System.in);
+        System.out.println("Digite a senha ");
+
+        int senha = leia.nextInt();
+        while (senha != 2025){
+
+            System.out.println("Senha Invalida");
+            senha = leia.nextInt();
+        }
+            System.out.println("Acesso Liberado");
+        }
+
+    }
